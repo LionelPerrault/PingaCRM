@@ -85,7 +85,7 @@ export class SetPasswordComponent implements OnInit {
     const userName = this.userN;
     const newPassword = data['newPassword'];
     const confirmNewPassword = data['confirmNewPassword'];
-    const src = this.activatedRoute.snapshot.queryParams['t']; // Access query parameter directly
+    const src = this.activatedRoute.snapshot.queryParams['t']; // Access query parameter directly.
 
     this.submitted = true;
 
